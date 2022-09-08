@@ -1,8 +1,8 @@
 @import url(header-footer.css);
+@import url(tablet-mobile-style.css);
 
 body {
   display: grid;
-  width: 100%;
   grid-template-areas:
     "nav"
     "main"
