@@ -1,0 +1,11 @@
+@import url(header-footer.css);
+
+body {
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+  background-color: #fbf4ef;
+}
