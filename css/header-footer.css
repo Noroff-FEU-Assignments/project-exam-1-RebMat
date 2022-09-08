@@ -16,6 +16,11 @@ nav {
 .navItem:hover {
   color: #d6d7ea;
 }
+.navLogo {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
 
 .logo {
   width: 150px;
