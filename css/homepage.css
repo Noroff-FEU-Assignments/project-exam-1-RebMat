@@ -1,0 +1,26 @@
+.first-section {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-homepage {
+  max-width: 75%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.second-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+@media (max-width: 768px) {
+  .last-recipes {
+    font-size: 20px;
+  }
+
+  .pic-homepage {
+    max-width: 100%;
+  }
+}
