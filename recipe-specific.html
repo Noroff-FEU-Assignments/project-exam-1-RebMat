@@ -11,15 +11,22 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html" class="navItem">Home</a>
-        <a href="recipes.html" class="navItem activebutton">Recipes</a>
-        <a href="aboutme.html" class="navItem">About Me</a>
-        <a href="contact.html" class="navItem">Contact</a>
+      <nav class="navbar">
+        <div class="nav-branding">
+          <a href="index.html"><img src="images/RRR-logo1.svg" alt="logo of rebeccas ruthless recipes" class="logo" /></a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="recipes.html" class="nav-link activebutton">Recipes</a></li>
+          <li class="nav-item"><a href="aboutme.html" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
-      <div class="navLogo">
-        <a href="index.html"><img src="images/RRR-logo1.svg" alt="logo of rebeccas ruthless recipes" class="logo" /></a>
-      </div>
     </header>
     <main></main>
     <footer>
@@ -30,5 +37,6 @@
       </div>
       <div class="copyright"><p>Copyright © 2022 Rebecca Mathisen</p></div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,35 +1,113 @@
-nav {
-  display: flex;
-  justify-content: space-around;
-}
-
-.navItem {
-  font-family: forma-djr-micro, sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  color: #4656a3;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-top: 30px;
-}
-
-.navItem:hover {
-  color: #d6d7ea;
-}
-.navLogo {
-  display: flex;
-  justify-content: center;
-  margin-top: -50px;
-}
+/* Header*/
 
 .logo {
   width: 150px;
-  margin-top: 30px;
+  margin: 50px 0px 0px 25px;
 }
 
 .activebutton {
   text-decoration: underline;
 }
+
+header {
+  background-color: #fbf4ef;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-right: 25px;
+}
+
+.nav-branding {
+  font-size: 2rem;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #4656a3;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.nav-link:hover {
+  color: #d6d7ea;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #4656a3;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    margin-right: 0px;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+}
+
+/* Footer */
 
 footer {
   display: flex;

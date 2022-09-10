@@ -1,5 +1,11 @@
 @import url(header-footer.css);
-@import url(tablet-mobile-style.css);
+@import url(hamburgermenu.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   display: grid;

@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Rebeccas Ruthless Recipes. About me" />
+    <meta name="description" content="Rebeccas Ruthless Recipes. Get to know me!" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/lzm0jap.css" />
     <title>About Me - Rebeccas Ruthless Recipes</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html" class="navItem">Home</a>
-        <a href="recipes.html" class="navItem">Recipes</a>
-        <a href="aboutme.html" class="navItem activebutton">About Me</a>
-        <a href="contact.html" class="navItem">Contact</a>
+      <nav class="navbar">
+        <div class="nav-branding">
+          <a href="index.html"><img src="images/RRR-logo1.svg" alt="logo of rebeccas ruthless recipes" class="logo" /></a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="recipes.html" class="nav-link">Recipes</a></li>
+          <li class="nav-item"><a href="aboutme.html" class="nav-link activebutton">About Me</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
-      <div class="navLogo">
-        <a href="index.html"><img src="images/RRR-logo1.svg" alt="logo of rebeccas ruthless recipes" class="logo" /></a>
-      </div>
     </header>
     <main></main>
     <footer>
@@ -30,5 +37,6 @@
       </div>
       <div class="copyright"><p>Copyright © 2022 Rebecca Mathisen</p></div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
