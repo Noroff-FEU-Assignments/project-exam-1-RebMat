@@ -1,3 +1,10 @@
+.main-homepage {
+  display: grid;
+  grid-template-areas:
+    "main"
+    "main";
+}
+
 .first-section {
   display: flex;
   justify-content: center;

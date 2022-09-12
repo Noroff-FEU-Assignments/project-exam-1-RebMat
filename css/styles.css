@@ -1,5 +1,7 @@
 @import url(header-footer.css);
 @import url(homepage.css);
+@import url(aboutme.css);
+@import url(recipes.css);
 
 * {
   padding: 0;
@@ -16,17 +18,17 @@ body {
   background-color: #fbf4ef;
 }
 
-main {
-  display: grid;
-  grid-template-areas:
-    "main"
-    "main";
-}
-
 h1 {
   font-family: forma-djr-micro, sans-serif;
   font-weight: 800;
   font-style: normal;
   color: #4656a3;
   text-transform: uppercase;
+}
+
+p {
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #707070;
 }
