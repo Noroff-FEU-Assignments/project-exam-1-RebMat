@@ -2,6 +2,7 @@
 @import url(homepage.css);
 @import url(aboutme.css);
 @import url(recipes.css);
+@import url(contact.css);
 
 * {
   padding: 0;
@@ -16,6 +17,10 @@ body {
     "main"
     "footer";
   background-color: #fbf4ef;
+}
+
+main {
+  margin-top: 50px;
 }
 
 h1 {
