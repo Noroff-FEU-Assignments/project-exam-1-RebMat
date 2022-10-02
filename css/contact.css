@@ -13,7 +13,6 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  /* align-items: center; */
   padding: 20px 50px 20px 50px;
 }
 
@@ -147,6 +146,6 @@ textarea::placeholder {
 
 @media (max-width: 400px) {
   .main-contact {
-    margin: 10px;
+    margin: 50px 10px 0 10px;
   }
 }
